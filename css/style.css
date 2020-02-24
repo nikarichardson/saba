@@ -1,6 +1,25 @@
 body { font-family: 'Open Sans', sans-serif;
 letter-spacing: 1px; }
 
+a { 
+  color: #847996; 
+  /*border-bottom: 1px solid #847996; */
+  text-decoration: none; 
+}
+
+a:hover { 
+  color: #DDC8C4; 
+  text-decoration: none; 
+}
+
+b {
+  color: #896A67
+}
+
+i {
+  color: #88B7B5;
+}
+
 .leftbar {
   width: 200px; 
   z-index: 1;
@@ -50,6 +69,10 @@ letter-spacing: 1px; }
   color: white;
 }
 
+.navlink {
+  border-bottom: none; 
+}
+
 h1 { 
   color: #9c2f30; 
   font-family: 'Open Sans', sans-serif;
@@ -63,7 +86,6 @@ h2 {
   text-transform: uppercase;
   font-size: 12 px;
   font-weight: 100;
-
   font-family: 'Open Sans', sans-serif;
 }
 
@@ -71,6 +93,15 @@ h2:before{
   content:"\2668";
   font-size:20px;
   padding-right:6px;
+}
+
+.subtitle {
+  font-size: 14px;
+  display: block;
+  color: #88B7B5;
+  letter-spacing: 1px; 
+  font-family: 'Open Sans', sans-serif;
+  text-align: center;
 }
 
 .title {
@@ -83,6 +114,7 @@ h2:before{
   margin-right: auto;
   text-align: center;
 }
+
 
 .text {
   line-height: 1.5;
