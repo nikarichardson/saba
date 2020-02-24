@@ -50,6 +50,10 @@ i {
     user-select: none;
 }
 
+img {
+  pointer-events: none
+}
+
 .logo {
   margin-left: auto;
   display: block;
@@ -97,7 +101,6 @@ i {
 blockquote { 
   padding: 0px 15px;
   border-left: 5px solid #d0d0d0; 
-  /*margin: 20px 40px;*/ 
   color: #a9a9a9; 
   line-height: 1.5;
 }
