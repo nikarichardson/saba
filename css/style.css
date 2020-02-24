@@ -13,6 +13,24 @@ body { font-family: "Raleway", sans-serif; }
 	overflow-x: hidden; 
 }
 
+.leftbar a {
+  display: block;
+  color: black;
+  padding: 16px;
+  text-decoration: none;
+}
+
+.leftbar a.active {
+  background-color: #847996;
+  color: white;
+}
+
+.leftbar a:hover:not(.active) {
+  background-color: #896A67;
+  color: white;
+}
+
+
 .main {
   margin-left: 320px; 
   padding: 0px 20px;
