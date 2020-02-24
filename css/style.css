@@ -26,7 +26,7 @@ body { font-family: "proxima-nova", sans-serif; }
 }
 
 .leftbar a:hover:not(.active) {
-  background-color: #896A67;
+  background-color: #9c2f30;
   color: white;
 }
 
@@ -34,5 +34,5 @@ body { font-family: "proxima-nova", sans-serif; }
 .main {
   margin-left: 320px; 
   padding: 0px 20px;
-  background-color: #ffffff;
+  background-color: #896A67;
 }
