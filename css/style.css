@@ -163,6 +163,17 @@ h2:before{
   line-height: 1.5;
 }
 
+.footer {
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  font-size: 10px;
+  background-color: #896A67;
+  color: white;
+  text-align: center;
+}
+
 .main {
   margin-left: 280px; 
   pointer-events: none
