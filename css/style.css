@@ -24,6 +24,12 @@ b {
   font-weight: 200;
 }
 
+.gtext { 
+  color: #709775;
+  font-weight: 500;
+  background: #ffffff;
+}
+
 i {
   color: #9c2f30;
 }
@@ -127,6 +133,12 @@ h2:before{
   padding-right:6px;
 }
 
+h3 {
+  color: #65094e;
+  font-weight: bold;
+}
+
+
 .subtitle {
   font-size: 18px;
   display: block;
@@ -158,7 +170,6 @@ h2:before{
   line-height: .5px;
 }
 
-
 .text {
   line-height: 1.5;
 }
@@ -168,7 +179,7 @@ h2:before{
   left: 0;
   bottom: 0;
   width: 100%;
-  font-size: 10px;
+  font-size: 15px;
   background-color: #896A67;
   color: white;
   text-align: center;
