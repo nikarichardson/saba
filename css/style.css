@@ -60,7 +60,7 @@ i {
   top: 20;
   margin: auto;
   left: 10;
-  overflow-x: hidden; 
+  /*overflow-x: hidden; */ 
 }
 
 * {
