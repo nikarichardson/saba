@@ -34,5 +34,6 @@ body { font-family: "proxima-nova", sans-serif; }
 .main {
   margin-left: 320px; 
   padding: 0px 20px;
+  font-style: "proxima-nova", sans-serif;
   background-color: #896A67;
 }
