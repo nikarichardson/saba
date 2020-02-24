@@ -63,6 +63,26 @@ i {
   /*overflow-x: hidden; */ 
 }
 
+/* width */
+::-webkit-scrollbar {
+  width: 10px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  background: #f1f1f1; 
+}
+ 
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: #E8E8E8; 
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: #DCDCDC; 
+}
+
 * {
     -webkit-user-select: none;
     -khtml-user-select: none;
