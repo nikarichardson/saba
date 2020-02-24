@@ -3,8 +3,9 @@ h1 {
   font-family: 'Open Sans', sans-serif;
   font-size: 60px; 
   font-weight: bold; 
+  padding-top: -10px;
   letter-spacing: -1px; 
-  line-height: 1; 
+  line-height: .2; 
 }
 
 h2 {

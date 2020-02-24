@@ -1,6 +1,6 @@
 @import "text_decor.css"; 
 @import "headers.css"; 
-@import "scrollbar.css"
+@import "scrollbar.css";
 
 @media only screen and (min-width: 961px) {
   body {
@@ -14,7 +14,6 @@
     /* Yellow */
   }
 }
-
 
 body { 
   font-family: 'Open Sans', sans-serif;
@@ -71,7 +70,6 @@ img {
 .navlink {
   border-bottom: none; 
   border-radius: 12px;
-  /*background-color: #896A67;*/
   border: none;
   color: white;
   padding: 0px;
@@ -91,7 +89,6 @@ blockquote {
   color: #a9a9a9; 
   line-height: 1.5;
 }
-
 
 .subtitle {
   font-size: 18px;
