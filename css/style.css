@@ -1,5 +1,5 @@
 .leftbar {
-	width: 300px; 
+	width: 150px; 
 	z-index: 1;
 	top: 0; 
 	left: 0;
@@ -12,6 +12,7 @@
 }
 
 .main {
-  margin-left: 320px; 
+  margin-left: 170px; 
   padding: 0px 20px;
+  background-color: #896A67;
 }
