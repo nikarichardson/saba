@@ -7,7 +7,7 @@ body { font-family: "proxima-nova", sans-serif; }
 	left: 0;
 	position: fixed; 
 	background-color: #ddc8c4; 
-	padding-top: 20px;
+	/*padding-top: 20px;*/
 	top: 20;
 	left: 10;
 	overflow-x: hidden; 
