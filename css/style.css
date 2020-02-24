@@ -1,16 +1,16 @@
-body { font-family: "proxima-nova", sans-serif; }
+body { font-family: time; }
 
 .leftbar {
-	width: 300px; 
-	z-index: 1;
-	top: 0; 
-	left: 0;
-	position: fixed; 
-	background-color: #ddc8c4; 
-	padding-top: 20px;
-	top: 20;
-	left: 10;
-	overflow-x: hidden; 
+  width: 300px; 
+  z-index: 1;
+  top: 0; 
+  left: 0;
+  position: fixed; 
+  background-color: #ddc8c4; 
+  padding-top: 20px;
+  top: 20;
+  left: 10;
+  overflow-x: hidden; 
 }
 
 .leftbar a {
@@ -30,12 +30,17 @@ body { font-family: "proxima-nova", sans-serif; }
   color: white;
 }
 
+h2 {
+text-transform: uppercase;
+font-size: 12 px;
+font-family: Georgia;
+}
 
 .main {
   margin-left: 320px; 
   padding: 0px 20px;
   padding-top: 20px;
   top: 20;
-  font-style: "proxima-nova", sans-serif;
+  font-style: time;
   background-color: #ddc8c4;
 }
