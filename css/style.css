@@ -1,3 +1,7 @@
+body { font-family: "Raleway", sans-serif; }
+
+
+
 .leftbar {
 	width: 300px; 
 	z-index: 1;
@@ -10,8 +14,6 @@
 	left: 10;
 	overflow-x: hidden; 
 }
-
-body { font-family: "Raleway", sans-serif; }
 
 .main {
   margin-left: 320px; 
