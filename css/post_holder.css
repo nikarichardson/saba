@@ -6,11 +6,12 @@
 	grid-row-gap: 0px;
 }
 
-.title1 { 
+.card1 { 
 	grid-area: 1 / 1 / 2 / 2; 
 	/*border: 2px solid #DCDCDC;*/
 	padding: 10px;
 	color: #9c2f30;
+	text-align: justify;
 }
 
 .author1 {
@@ -19,15 +20,20 @@
 	padding: 10px;
 }
 
+.card_text {
+	color: #000000;
+}
+
 .author2 { 
 	grid-area: 2 / 2 / 3 / 3;
 	border-top: 2px solid #DCDCDC; 
 	padding: 10px;
 }
 
-.title2 { 
+.card2 { 
 	grid-area: 1 / 2 / 2 / 3;
 	/*border: 2px solid #DCDCDC;*/
 	padding: 10px;
 	color: #9c2f30;
+	text-align: justify;
 }
