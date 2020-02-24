@@ -1,6 +1,5 @@
 <img src="resources/saba_logo_transparent.png" height="240" width="200" align="right"> 
 <h1>Saba: Web Application</h1>
-<h2>About</h2>
 <img src="resources/coffee_work.jpg" width="300" height="200" align="left"> <i>Saba</i> 生飯 The few grains of rice offered at the beginning of meals to the hungry ghosts. Written with CSS and HTML.
 Supports blog posts. Intended for use as a blog on the basics of operating systems and their design. 
 <img src="resources/saba_laptop.png" width="300" height="200" text-align="right">
