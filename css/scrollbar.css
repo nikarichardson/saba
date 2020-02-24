@@ -1,5 +1,4 @@
-/* Code for changing the scrollbar W3 Schools */ 
-
+/* Code for changing the scrollbar from W3 Schools */ 
 /* width */
 ::-webkit-scrollbar {
   width: 10px;

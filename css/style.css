@@ -1,6 +1,7 @@
 @import "text_decor.css"; 
 @import "headers.css"; 
 @import "scrollbar.css";
+@import "post_holder.css";
 
 @media only screen and (min-width: 961px) {
   body {
