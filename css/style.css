@@ -1,4 +1,4 @@
-body { font-family: Colaborate Thin;
+body { font-family: 'Open Sans', sans-serif;
 letter-spacing: 1px; }
 
 .leftbar {
@@ -13,6 +13,14 @@ letter-spacing: 1px; }
   margin: auto;
   left: 10;
   overflow-x: hidden; 
+}
+
+* {
+    -webkit-user-select: none;
+    -khtml-user-select: none;
+    -moz-user-select: -moz-none;
+    -o-user-select: none;
+    user-select: none;
 }
 
 .logo {
@@ -42,24 +50,52 @@ letter-spacing: 1px; }
   color: white;
 }
 
-h1 {
-  font-weight: bold;
-  color: #9c2f30;
+h1 { 
+  color: #9c2f30; 
+  font-family: 'Open Sans', sans-serif;
+  font-size: 60px; 
+  font-weight: bold; 
+  letter-spacing: -1px; 
+  line-height: 1; 
 }
 
 h2 {
   text-transform: uppercase;
   font-size: 12 px;
-  font-weight: normal;
-  font-family: Georgia;
+  font-weight: 100;
+
+  font-family: 'Open Sans', sans-serif;
+}
+
+h2:before{
+  content:"\2668";
+  font-size:20px;
+  padding-right:6px;
+}
+
+.title {
+  font-size: 24px;
+  display: block;
+  color: #9c2f30;
+  letter-spacing: 1px; 
+  font-family: 'Open Sans', sans-serif;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+}
+
+.text {
+  line-height: 1.5;
 }
 
 .main {
   margin-left: 280px; 
   pointer-events: none
+  font-weight: 80;
   padding: 0px 20px;
   padding-top: 20px;
+  padding-right: 100px;
   top: 20;
-  font-style: time;
+  font-family: 'Open Sans', sans-serif;
   background-color: #fffff;
 }
