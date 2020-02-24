@@ -1,20 +1,32 @@
-body { font-family: time; }
+body { font-family: Colaborate Thin;
+letter-spacing: 1px; }
 
 .leftbar {
-  width: 300px; 
+  width: 200px; 
   z-index: 1;
   top: 0; 
   left: 0;
   position: fixed; 
-  background-color: #ddc8c4; 
+  background-color: #ffff; 
   padding-top: 20px;
   top: 20;
+  margin: auto;
   left: 10;
   overflow-x: hidden; 
 }
 
-.leftbar a {
+.logo {
+  margin-left: auto;
   display: block;
+  margin-right: auto;
+  pointer-events: none
+} 
+
+.leftbar a {
+  margin-left: auto;
+  display: block;
+  text-align: center;
+  margin-right: auto;
   color: black;
   padding: 16px;
   text-decoration: none;
@@ -30,17 +42,24 @@ body { font-family: time; }
   color: white;
 }
 
+h1 {
+  font-weight: bold;
+  color: #9c2f30;
+}
+
 h2 {
-text-transform: uppercase;
-font-size: 12 px;
-font-family: Georgia;
+  text-transform: uppercase;
+  font-size: 12 px;
+  font-weight: normal;
+  font-family: Georgia;
 }
 
 .main {
-  margin-left: 320px; 
+  margin-left: 280px; 
+  pointer-events: none
   padding: 0px 20px;
   padding-top: 20px;
   top: 20;
   font-style: time;
-  background-color: #ddc8c4;
+  background-color: #fffff;
 }
