@@ -11,7 +11,8 @@ Icons and image used with licenses from <a href="https://www.shutterstock.com/">
 Some html code (example: css scrollbar for all/most browsers) from the invaluable <a href="https://www.w3schools.com/"> W3 Schools</a>. 
 Name and definition of <i>Saba</i> from this list of words <a href="https://terebess.hu/zen/szoto/szotar/szotar.html">here</a>.
 
-<h2>Colors</h2>
+<h2>Some Colors</h2>
+
 - ![#9c2f30](https://placehold.it/15/9c2f30/000000?text=+) `#9c2f30`
 - ![#1E1A1D](https://placehold.it/15/1E1A1D/000000?text=+) `#1E1A1D`
 - ![#847996](https://placehold.it/15/847996/000000?text=+) `#847996`
