@@ -1,0 +1,16 @@
+.leftbar {
+	width: 300px; 
+	z-index: 1;
+	top: 0; 
+	left: 0;
+	position: fixed; 
+	background-color: #ddc8c4; 
+	padding-top: 20px;
+	top: 20;
+	left: 10;
+	overflow-x: hidden; 
+}
+.main {
+  margin-left: 320px; 
+  padding: 0px 20px;
+}
