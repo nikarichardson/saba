@@ -1,14 +1,12 @@
 body { font-family: "Raleway", sans-serif; }
 
-
-
 .leftbar {
 	width: 300px; 
 	z-index: 1;
 	top: 0; 
 	left: 0;
 	position: fixed; 
-	background-color: #ffffff; 
+	background-color: #896A67; 
 	padding-top: 20px;
 	top: 20;
 	left: 10;
@@ -18,5 +16,5 @@ body { font-family: "Raleway", sans-serif; }
 .main {
   margin-left: 320px; 
   padding: 0px 20px;
-  background-color: #896A67;
+  background-color: #ffffff;
 }
