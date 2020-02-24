@@ -7,7 +7,7 @@ body { font-family: "proxima-nova", sans-serif; }
 	left: 0;
 	position: fixed; 
 	background-color: #ddc8c4; 
-	/*padding-top: 20px;*/
+	padding-top: 20px;
 	top: 20;
 	left: 10;
 	overflow-x: hidden; 
@@ -34,6 +34,7 @@ body { font-family: "proxima-nova", sans-serif; }
 .main {
   margin-left: 320px; 
   padding: 0px 20px;
+  padding-top: 20px;
   top: 20;
   font-style: "proxima-nova", sans-serif;
   background-color: #ddc8c4;
