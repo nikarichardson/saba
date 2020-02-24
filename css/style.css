@@ -1,5 +1,6 @@
 @import "text_decor.css"; 
 @import "headers.css"; 
+@import "scrollbar.css"
 
 @media only screen and (min-width: 961px) {
   body {
@@ -22,35 +23,6 @@ body {
   line-height: 1.5;
 }
 
-a { 
-  color: #847996; 
-  text-decoration: none;
-  font-weight: 300; 
-}
-
-a:hover { 
-  color: #5e556d; 
-  text-decoration: none; 
-  font-weight: 350;
-}
-
-b {
-  color: #f2f2f2; 
-  background: #88B7B5;
-  font-weight: 200;
-}
-
-.greentext { 
-  color: #709775;
-  font-weight: 500;
-  background: #ffffff;
-}
-
-i {
-  color: #9c2f30;
-  font-weight: 100;
-}
-
 .leftbar {
   width: 200px; 
   z-index: 1;
@@ -63,34 +35,6 @@ i {
   margin: auto;
   left: 10;
   /*overflow-x: hidden; */ 
-}
-
-/* width */
-::-webkit-scrollbar {
-  width: 10px;
-}
-
-/* Track */
-::-webkit-scrollbar-track {
-  background: #f1f1f1; 
-}
- 
-/* Handle */
-::-webkit-scrollbar-thumb {
-  background: #E8E8E8; 
-}
-
-/* Handle on hover */
-::-webkit-scrollbar-thumb:hover {
-  background: #DCDCDC; 
-}
-
-* {
-    -webkit-user-select: none;
-    -khtml-user-select: none;
-    -moz-user-select: -moz-none;
-    -o-user-select: none;
-    user-select: none;
 }
 
 img {
@@ -145,12 +89,6 @@ blockquote {
   padding: 0px 15px;
   border-left: 5px solid #d0d0d0; 
   color: #a9a9a9; 
-  line-height: 1.5;
-}
-
-u { 
-  color: #D3B99F;
-  font-weight: 150; 
   line-height: 1.5;
 }
 

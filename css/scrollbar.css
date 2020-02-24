@@ -1,0 +1,29 @@
+/* Code for changing the scrollbar W3 Schools */ 
+
+/* width */
+::-webkit-scrollbar {
+  width: 10px;
+}
+
+/* track */
+::-webkit-scrollbar-track {
+  background: #f1f1f1; 
+}
+ 
+/* handle */
+::-webkit-scrollbar-thumb {
+  background: #E8E8E8; 
+}
+
+/* handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: #DCDCDC; 
+}
+
+* {
+    -webkit-user-select: none;
+    -khtml-user-select: none;
+    -moz-user-select: -moz-none;
+    -o-user-select: none;
+    user-select: none;
+}

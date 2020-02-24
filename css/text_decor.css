@@ -1,0 +1,34 @@
+a { 
+  color: #847996; 
+  text-decoration: none;
+  font-weight: 300; 
+}
+
+a:hover { 
+  color: #5e556d; 
+  text-decoration: none; 
+  font-weight: 350;
+}
+
+b {
+  color: #f2f2f2; 
+  background: #88B7B5;
+  font-weight: 200;
+}
+
+.greentext { 
+  color: #709775;
+  font-weight: 500;
+  background: #ffffff;
+}
+
+i {
+  color: #9c2f30;
+  font-weight: 100;
+}
+
+u { 
+  color: #D3B99F;
+  font-weight: 150; 
+  line-height: 1.5;
+}
