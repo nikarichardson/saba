@@ -8,18 +8,18 @@
 }
 
 .section1 { 
-	grid-area: 1 / 1 / 2 / 2; 
+	grid-area: 1 / 1 / 2 / 2;
 }
 
 .section2 { 
-	grid-area: 1 / 2 / 2 / 3; 
+	grid-area: 1 / 2 / 2 / 3;
 }
 .section3 {
-	grid-area: 1 / 3 / 2 / 4; 
+	grid-area: 1 / 3 / 2 / 4;
 }
 
 .section4 { 
-	grid-area: 1 / 4 / 2 / 5; 
+	grid-area: 1 / 4 / 2 / 5;
 }
 
 .card {
@@ -27,7 +27,7 @@
   transition: 0.3s;
   width: 350px;
   padding-bottom: 20px;
-  border-radius: 5px; /* 5px rounded corners */
+  border-radius: 5px;
 }
 
 .container {
@@ -35,13 +35,12 @@
 
 }
 
-/* on mouse-over, add a deeper shadow */
+/* darker shadow on hovder */
 .card:hover {
   box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
 }
 
-/* add rounded corners to the top left and the top right corner of the image */
+/* rounded corners */
 img {
   border-radius: 5px 5px 0 0;
 }
-

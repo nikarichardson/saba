@@ -8,7 +8,7 @@
 body { 
   font-family: 'Open Sans', sans-serif;
   letter-spacing: 1px;
-  font-weight: 100; 
+  font-weight: 100;
   line-height: 1.5;
 }
 
@@ -21,16 +21,16 @@ img {
   margin-left: auto;
   display: block;
   margin-right: auto;
-  pointer-events: none
+  pointer-events: none;
 } 
 
 .leftbar {
   flex: 30%;
   z-index: 1;
   padding-left: 100px;
-  top: 0; 
+  top: 0;
   left: 0;
-  position: fixed; 
+  position: fixed;
   background-color: #ffff; 
   padding-top: 20px;
   top: 20;
@@ -62,11 +62,11 @@ img {
 
 .main {
   margin-left: 280px; 
-  pointer-events: none
+  pointer-events: none;
   font-weight: 80;
   flex: 70%;
   padding: 0px 20px;
-  padding-top: 20px; 
+  padding-top: 20px;
   padding-right: 100px;
   top: 20;
   font-family: 'Open Sans', sans-serif;
@@ -74,7 +74,7 @@ img {
 }
 
 .navlink {
-  border-bottom: none; 
+  border-bottom: none;
   border-radius: 12px;
   border: none;
   color: white;
@@ -99,15 +99,15 @@ img {
 
 .postlink a:hover {
   color: #000000;
-  webkit-filter: blur(4px); 
+  webkit-filter: blur(4px);
   filter: blur(4px);
 }
 
 
 blockquote { 
   padding: 0px 15px;
-  border-left: 5px solid #d0d0d0; 
-  color: #a9a9a9; 
+  border-left: 5px solid #d0d0d0;
+  color: #a9a9a9;
   line-height: 1.5;
 }
 
@@ -117,7 +117,7 @@ blockquote {
   color: #88B7B5;
   padding-bottom: 4px;
   font-weight: 100;
-  letter-spacing: 1px; 
+  letter-spacing: 1px;
   font-family: 'Open Sans', sans-serif;
   text-align: center;
 }
@@ -127,7 +127,7 @@ blockquote {
   display: block;
   color: #9c2f30;
   font-weight: 100;
-  letter-spacing: 2px; 
+  letter-spacing: 2px;
   padding-bottom: 7px;
   font-family: 'Open Sans', sans-serif;
   margin-left: auto;
