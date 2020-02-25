@@ -5,155 +5,155 @@
 @import "post.css";
 @import "social_sharing.css";
 body {
-  font-family: 'Open Sans', sans-serif;
-  letter-spacing: 1px;
-  font-weight: 100;
-  line-height: 1.5;
+	font-family: 'Open Sans', sans-serif;
+	letter-spacing: 1px;
+	font-weight: 100;
+	line-height: 1.5;
 }
 
 img {
-  pointer-events: none;
-  padding: 0px 10px 0px 10px;
+	pointer-events: none;
+	padding: 0px 10px 0px 10px;
 }
 
 .logo {
-  margin-left: auto;
-  display: block;
-  margin-right: auto;
-  pointer-events: none;
+	margin-left: auto;
+	display: block;
+	margin-right: auto;
+	pointer-events: none;
 }
 
 .leftbar {
-  flex: 30%;
-  z-index: 1;
-  padding-left: 100px;
-  top: 0;
-  left: 0;
-  position: fixed;
-  background-color: #ffff;
-  padding-top: 20px;
-  top: 20;
-  margin: auto;
-  left: 10;
+	flex: 30%;
+	z-index: 1;
+	padding-left: 100px;
+	top: 0;
+	left: 0;
+	position: fixed;
+	background-color: #ffff;
+	padding-top: 20px;
+	top: 20;
+	margin: auto;
+	left: 10;
 }
 
 .leftbar a {
-  margin-left: auto;
-  display: block;
-  text-align: center;
-  margin-right: auto;
-  color: black;
-  padding: 16px;
-  text-decoration: none;
+	margin-left: auto;
+	display: block;
+	text-align: center;
+	margin-right: auto;
+	color: black;
+	padding: 16px;
+	text-decoration: none;
 }
 
 .leftbar a.active {
-  background-color: #847996;
-  color: white;
+	background-color: #847996;
+	color: white;
 }
 
 .leftbar a:hover:not(.active) {
-  background-color: #9c2f30;
-  color: white;
+	background-color: #9c2f30;
+	color: white;
 }
 
 .main {
-  margin-left: 280px;
-  pointer-events: none;
-  font-weight: 80;
-  flex: 70%;
-  padding: 0px 20px;
-  padding-top: 20px;
-  padding-right: 100px;
-  top: 20;
-  font-family: 'Open Sans', sans-serif;
-  background-color: #fffff;
+	margin-left: 280px;
+	pointer-events: none;
+	font-weight: 80;
+	flex: 70%;
+	padding: 0px 20px;
+	padding-top: 20px;
+	padding-right: 100px;
+	top: 20;
+	font-family: 'Open Sans', sans-serif;
+	background-color: #fffff;
 }
 
 .navlink {
-  border-bottom: none;
-  border-radius: 12px;
-  border: none;
-  color: white;
-  padding: 0px;
-  border: 2px solid #DCDCDC;
-  width: 45px;
-  text-align: center;
-  text-decoration: none;
-  display: inline-block;
-  font-size: 15px;
-  margin: 4px 2px;
-  transition: all 0.5s;
+	border-bottom: none;
+	border-radius: 12px;
+	border: none;
+	color: white;
+	padding: 0px;
+	border: 2px solid #DCDCDC;
+	width: 45px;
+	text-align: center;
+	text-decoration: none;
+	display: inline-block;
+	font-size: 15px;
+	margin: 4px 2px;
+	transition: all 0.5s;
 }
 
 .postlink {
-  transition: all 0.5s;
-  text-align: center;
-  font-size: 20px;
-  color: #395488;
+	transition: all 0.5s;
+	text-align: center;
+	font-size: 20px;
+	color: #395488;
 }
 
 .postlink a:hover {
-  color: #000000;
-  webkit-filter: blur(4px);
-  filter: blur(4px);
+	color: #000000;
+	webkit-filter: blur(4px);
+	filter: blur(4px);
 }
 
 blockquote {
-  padding: 0px 15px;
-  border-left: 5px solid #d0d0d0;
-  color: #a9a9a9;
-  line-height: 1.5;
+	padding: 0px 15px;
+	border-left: 5px solid #d0d0d0;
+	color: #a9a9a9;
+	line-height: 1.5;
 }
 
 .subtitle {
-  font-size: 18px;
-  display: block;
-  color: #88B7B5;
-  padding-bottom: 4px;
-  font-weight: 100;
-  letter-spacing: 1px;
-  font-family: 'Open Sans', sans-serif;
-  text-align: center;
+	font-size: 18px;
+	display: block;
+	color: #88B7B5;
+	padding-bottom: 4px;
+	font-weight: 100;
+	letter-spacing: 1px;
+	font-family: 'Open Sans', sans-serif;
+	text-align: center;
 }
 
 .title {
-  font-size: 24px;
-  display: block;
-  color: #9c2f30;
-  font-weight: 100;
-  letter-spacing: 2px;
-  padding-bottom: 7px;
-  font-family: 'Open Sans', sans-serif;
-  margin-left: auto;
-  margin-right: auto;
-  text-align: center;
+	font-size: 24px;
+	display: block;
+	color: #9c2f30;
+	font-weight: 100;
+	letter-spacing: 2px;
+	padding-bottom: 7px;
+	font-family: 'Open Sans', sans-serif;
+	margin-left: auto;
+	margin-right: auto;
+	text-align: center;
 }
 
 .emoji {
-  font-size: 17px;
-  margin-left: auto;
-  margin-right: auto;
-  text-align: center;
-  padding-top: -10px;
-  line-height: .5px;
+	font-size: 17px;
+	margin-left: auto;
+	margin-right: auto;
+	text-align: center;
+	padding-top: -10px;
+	line-height: .5px;
 }
 
 .text {
-  line-height: 1.5;
+	line-height: 1.5;
 }
 
 .footer {
-  position: fixed;
-  left: 0;
-  bottom: 0;
-  width: 100%;
-  font-size: 15px;
-  background-color: #896A67;
-  color: white;
-  text-align: center;
+	position: fixed;
+	left: 0;
+	bottom: 0;
+	width: 100%;
+	font-size: 15px;
+	background-color: #896A67;
+	color: white;
+	text-align: center;
 }
 
 .avatar {
-  padding: 0px 0px 0px 0px;
+	padding: 0px 0px 0px 0px;
 }
