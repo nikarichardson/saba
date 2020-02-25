@@ -23,11 +23,19 @@
 <h1>Virtualization & Concurrency</h1>
 <h2>Important Concepts for OS</h2>
 
-<b>Von Neumann method of computing:</b> fetching an instruction, decoding it, and executing it. The operating system manages the various resources that are employed in the [operation]. The resources of that the operating system manages includes the CPU, the memory, and the disk. 
-	When an operating system virtualizes memory, each running program uses a virtual address space that is mapped onto the machine’s memory. Memory is an array of bytes that can be read (accessed) or written (updated.) 
-The file system stores the files on disk and is primarily concerned with the persistence of these files (that is, the reliability of files’ persistence). Persistent storage is key to a user’s ability to retrieve data in the wake of a system failure. The file system receives system calls and [grants] the requests. 
-<b>Concurrency</b> refers to the concurrent operation of multiple processes in operating systems. Many issues can arise when programs run concurrently, like the conflict of variable values and the overwriting of important data. 
+<b>Virtualization</b> is the process of taking a physical resource and making it virtual in order to duplicate the resource. This process allows multiple programs to run by sharing the CPU. Thus, the memory is effectively <i>private</i> to each running program, not a communal resource. Virtualization duplicates the CPU as many times as necessary for the operating system. The CPU is the principle processor of an <b>operating system</b>—the <b>central processing unit</b>. An operating system is responsible for virtualizing the physical resources of the operating system as needed.The <u>time-sharing of the CPU</u>—which allows one process to control the CPU for a period of time— enables concurrent processes. To switch from one process to another, the operating system must use a <b>context switch</b> At any given time, a running program can assume a <b>process state</b>, which indicates its readiness to be executed. The CPU scheduler is responsible for non-deterministically choosing the current running process. 
 
+<br>
+<br>
+	<b>Concurrency</b> refers to the concurrent operation of multiple processes in operating systems. Many issues can arise when programs run concurrently, like the conflict of a variable’s value and the deletion of important data. An operating system needs to be reliable and performant. To contend with the problems of concurrency, an OS must isolate processes to ensure data security and persistence.
+</br>  
+
+<blockquote>
+	UNIX is basically a simple operating system, but you have to be a genius to understand the simplicity. 
+	<br>
+		- Dennis Ritchie
+	</br> 
+</blockquote>
 <br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
 
 </div>

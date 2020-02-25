@@ -23,18 +23,24 @@
 <h1>Operating Systems</h1>
 <h2>What is an operating system? </h2>
 
-Virtualization is the process of taking a physical resource and making it virtual in order to duplicate the resource. This process allows multiple programs to run by sharing the CPU. Thus, the memory is effectively <i>private</i> to each running program, not a communal resource. Virtualization duplicates the CPU as many times as necessary for the operating system. The CPU is the single principle processor of an <b>operating system</b>. Design of operating systems must take into account the minimization of overheads (excess use of memory or space) while optimizing its performance. <b>Von Neumann method of computing:</b> fetching an instruction, decoding it, and executing it. The operating system manages the various resources that are employed in the [operation]. The resources of that the operating system manages includes the CPU, the memory, and the disk. 
-	When an operating system virtualizes memory, each running program uses a virtual address space that is mapped onto the machine’s memory. Memory is an array of bytes that can be read (accessed) or written (updated.) 
+An <u>operating system</u> is the manager for the various resources of a computer, including the CPU (central processing unit), the memory, and the disk. When an operating system virtualizes memory, each running program uses a virtual address space that is mapped onto the machine’s memory. Memory is an array of bytes that can be read (accessed) or written (updated). A primary function of the OS is to virtualize resources and enact persistent data storage. As such, it provides a standardized mode of data accession via system calls. All design of operating systems must take into account the minimization of overheads (excess use of memory or space) while optimizing its performance. 
 
 
+The <b>file system</b> stores the files on disk and is primarily concerned with the persistence of these files (that is, the reliability of a file’s persistence). Persistent storage is key to a user’s ability to retrieve data in the wake of a system failure. The file system receives system calls and fulfills the requests. A procedure call is <i>routine</i> with a privilege level of <b>user mode</b> (that is, the hardware restricts an application’s access and capability), while a system call requires a higher privilege level known as <b>kernel mode</b>.   Any input/output request or an expansion of memory requires kernel mode. 
+
+<blockquote>
+There's no other company that could make a MacBook Air and the reason is that not only do we control the hardware, but we control the operating system. And it is the intimate interaction between the operating system and the hardware that allows us to do that. There is no intimate interaction between Windows and a Dell notebook.
+- Steve Jobs
+</blockquote>
 
 <div class="post">
-<div class="section1"><h3>Concurrency</h3> The file system stores the files on disk and is primarily concerned with the persistence of these files (that is, the reliability of files’ persistence).  </div>
-<div class="section2"><h3>Virtualization</h3>Persistent storage is key to a user’s ability to retrieve data in the wake of a system failure. The file system receives system calls and [grants] the requests.</div>
-<div class="section3"><h3>Central Processing Unit</h3>And even more text here yay! </div>
-<div class="section4"><h3>and More... </h3><b>Concurrency</b> refers to the concurrent operation of multiple processes in operating systems. Many issues can arise when programs run concurrently, like the conflict of variable values and the overwriting of important data. </div>
+<div class="section1"><h3>Scheduling</h3> An operating system can employ a variety of scheduling policies. One such policy is <b>FIFO</b> (First In, First Out) which has the advantage of easy implementation but can be derailed by a single time-consuming resource that hijacks the resource. Another option for scheduling is a <b>fair share scheduler</b> which allocates time proportionally based on a lottery system with tickets for each process.</div>
+<div class="section2"><h3>Multiprocessors</h3>The introduction of more CPUs does not ensure that the OS will run more quickly or more efficiently. They must be used in tandem with threads to allow an application's processes to run in parallel. Then work can be equitably divided among the CPUs. <b>Multi-threading</b> can enable concurrent processes, but it must be done with caution, esp.as it pertains to shared data. </div>
+<div class="section3"><h3>Caches</h3>A <b>cache</b> is memory that is smaller and more easily accessible as compared to the main memory of a given operating system. The main memory of the OS is the <b>Random Access Memory</b> (RAM). <b>Temporal</b> and <b>spatial locality</b> inform the design of caches, according to which memory accessed in a period of time is likely to be accessed again, and memory accessed in a particular location is likely to access nearby data as well. </div>
+<div class="section4"><h3>Synchronization</h3>An operating system containing multiple central processing units must grapple with a more complicated the caching process.  Mutual exclusion devices (ex. locks) will improve synchronization of data across the CPUs by atomically updating data and coordinating the smooth operation of the scheduling queue.</div>
 </div>
 
+<br><br><br><br><br><br><br><br><br>
 
 <div class="card">
   <img src="../resources/student.jpg" alt="Avatar" class="avatar" style="width:100%">
