@@ -8,7 +8,6 @@
 
 .card1 { 
 	grid-area: 1 / 1 / 2 / 2; 
-	/*border: 2px solid #DCDCDC;*/
 	padding: 10px;
 	color: #9c2f30;
 	text-align: justify;
@@ -32,7 +31,6 @@
 
 .card2 { 
 	grid-area: 1 / 2 / 2 / 3;
-	/*border: 2px solid #DCDCDC;*/
 	padding: 10px;
 	color: #9c2f30;
 	text-align: justify;
