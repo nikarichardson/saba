@@ -13,7 +13,8 @@ body {
 }
 
 img {
-  pointer-events: none
+  pointer-events: none;
+  padding: 0px 10px 0px 10px;
 }
 
 .logo {
@@ -163,4 +164,8 @@ blockquote {
   body {
     background-color: #F09A9D; /* Red */
   }
+}
+
+.avatar {
+  padding: 0px 0px 0px 0px;
 }
