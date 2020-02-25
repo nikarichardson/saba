@@ -1,72 +1,88 @@
 <html> 
 <head>
-	<link rel="stylesheet" type="text/css" href="../css/style.css">
-	<link rel="icon" href="../resources/favicon.ico" type="image/x-icon"/ >
-	<meta charset="utf-16">
-	<title>Saba: Post 1</title>
+  <link rel="stylesheet" type="text/css" href="../css/style.css">
+  <link rel="icon" href="../resources/favicon.ico" type="image/x-icon"/ >
+  <meta charset="utf-16">
+  <title>Saba: OS Intro</title>
 </head>
 <body>
 <div class="leftbar">
-<h1 class="title">Saba</h1>
-<h1 class="subtitle">生飯</h1><p class="emoji">💻</p>
-<img class="logo" src="../resources/saba_logo_transparent.png" width="80" height="100"> 
-
-<a href="../index.html" class="navlink">Home</a>
-<a href="about" class="navlink">About</a>
-<a href="posts" class="navlink">Posts</a>
-<a href="credits" class="navlink">Credits</a>
+  <h1 class="title">Saba</h1>
+  <h1 class="subtitle">生飯</h1>
+  <p class="emoji">
+    💻
+  </p>
+  <img class="logo" src="../resources/saba_logo_transparent.png" width="80" height="100"> 
+  <a href="../index.html" class="navlink">Home</a>
+  <a href="about" class="navlink">About</a>
+  <a href="posts" class="navlink">Posts</a>
+  <a href="credits" class="navlink">Credits</a>
 </div> 
-
 <div class="main">
-	<figure><img src="../resources/coffee_work.jpg" width="300" height="200" text-align="right"><figcaption>A Macbook is an operating system.</figcaption>
-</figure>
-<h1>Operating Systems</h1>
-<h2>What is an operating system? </h2>
-
-An <u>operating system</u> is the manager for the various resources of a computer, including the CPU (central processing unit), the memory, and the disk. When an operating system virtualizes memory, each running program uses a virtual address space that is mapped onto the machine’s memory. Memory is an array of bytes that can be read (accessed) or written (updated). A primary function of the OS is to virtualize resources and enact persistent data storage. As such, it provides a standardized mode of data accession via system calls. All design of operating systems must take into account the minimization of overheads (excess use of memory or space) while optimizing its performance. 
-
-
-The <b>file system</b> stores the files on disk and is primarily concerned with the persistence of these files (that is, the reliability of a file’s persistence). Persistent storage is key to a user’s ability to retrieve data in the wake of a system failure. The file system receives system calls and fulfills the requests. A procedure call is <i>routine</i> with a privilege level of <b>user mode</b> (that is, the hardware restricts an application’s access and capability), while a system call requires a higher privilege level known as <b>kernel mode</b>.   Any input/output request or an expansion of memory requires kernel mode. 
-
-<blockquote>
-There's no other company that could make a MacBook Air and the reason is that not only do we control the hardware, but we control the operating system. And it is the intimate interaction between the operating system and the hardware that allows us to do that. There is no intimate interaction between Windows and a Dell notebook.
-- Steve Jobs
-</blockquote>
-
-<div class="post">
-<div class="section1"><h3>Scheduling</h3> An operating system can employ a variety of scheduling policies. One such policy is <b>FIFO</b> (First In, First Out) which has the advantage of easy implementation but can be derailed by a single time-consuming resource that hijacks the resource. Another option for scheduling is a <b>fair share scheduler</b> which allocates time proportionally based on a lottery system with tickets for each process.</div>
-<div class="section2"><h3>Multiprocessors</h3>The introduction of more CPUs does not ensure that the OS will run more quickly or more efficiently. They must be used in tandem with threads to allow an application's processes to run in parallel. Then work can be equitably divided among the CPUs. <b>Multi-threading</b> can enable concurrent processes, but it must be done with caution, esp.as it pertains to shared data. </div>
-<div class="section3"><h3>Caches</h3>A <b>cache</b> is memory that is smaller and more easily accessible as compared to the main memory of a given operating system. The main memory of the OS is the <b>Random Access Memory</b> (RAM). <b>Temporal</b> and <b>spatial locality</b> inform the design of caches, according to which memory accessed in a period of time is likely to be accessed again, and memory accessed in a particular location is likely to access nearby data as well. </div>
-<div class="section4"><h3>Synchronization</h3>An operating system containing multiple central processing units must grapple with a more complicated the caching process.  Mutual exclusion devices (ex. locks) will improve synchronization of data across the CPUs by atomically updating data and coordinating the smooth operation of the scheduling queue.</div>
-</div>
-
-<br><br><br><br><br><br><br><br><br>
-
-<div class="card">
-  <img src="../resources/student.jpg" alt="Avatar" class="avatar" style="width:100%">
-  <div class="container">
-    <h3>Nika R.</h3>
-    <p><div class="greentext">Occupation:</div> Student/Programmer
-    <p><div class="greentext">Company/School:</div> Always in flux 
-    <p><div class="greentext">Short Bio: </div>The story changes!
-    	<br>
+  <figure>
+    <img src="../resources/coffee_work.jpg" width="300" height="200" text-align="right">
+    <figcaption>
+      A Macbook is an operating system.
+    </figcaption>
+  </figure>
+  <h1>Operating Systems</h1>
+  <h2>What is an operating system? </h2>
+  An <u>operating system</u> is the manager for the various resources of a computer, including the CPU (central processing unit), the memory, and the disk. When an operating system virtualizes memory, each running program uses a virtual address space that is mapped onto the machine’s memory. Memory is an array of bytes that can be read (accessed) or written (updated). A primary function of the OS is to virtualize resources and enact persistent data storage. As such, it provides a standardized mode of data accession via system calls. All design of operating systems must take into account the minimization of overheads (excess use of memory or space) while optimizing its performance. 
+  <br>
+  The <b>file system</b> stores the files on disk and is primarily concerned with the persistence of these files (that is, the reliability of a file’s persistence). Persistent storage is key to a user’s ability to retrieve data in the wake of a system failure. The file system receives system calls and fulfills the requests. A procedure call is <i>routine</i> with a privilege level of <b>user mode</b> (that is, the hardware restricts an application’s access and capability), while a system call requires a higher privilege level known as <b>kernel mode</b>.   Any input/output request or an expansion of memory requires kernel mode. 
+  <blockquote>
+    There's no other company that could make a MacBook Air and the reason is that not only do we control the hardware, but we control the operating system. And it is the intimate interaction between the operating system and the hardware that allows us to do that. There is no intimate interaction between Windows and a Dell notebook.
+  - Steve Jobs
+  </blockquote>
+  <div class="post">
+    <div class="section1">
+      <h3>Scheduling</h3> 
+      An operating system can employ a variety of scheduling policies. One such policy is <b>FIFO</b> (First In, First Out) which has the advantage of easy implementation but can be derailed by a single time-consuming resource that hijacks the resource. Another option for scheduling is a <b>fair share scheduler</b> which allocates time proportionally based on a lottery system with tickets for each process.
+    </div>
+    <div class="section2">
+      <h3>Multiprocessors</h3>
+      The introduction of more CPUs does not ensure that the OS will run more quickly or more efficiently. They must be used in tandem with threads to allow an application's processes to run in parallel. Then work can be equitably divided among the CPUs. <b>Multi-threading</b> can enable concurrent processes, but it must be done with caution, esp.as it pertains to shared data. 
+    </div>
+    <div class="section3">
+      <h3>Caches</h3>
+      A <b>cache</b> is memory that is smaller and more easily accessible as compared to the main memory of a given operating system. The main memory of the OS is the <b>Random Access Memory</b> (RAM). <b>Temporal</b> and <b>spatial locality</b> inform the design of caches, according to which memory accessed in a period of time is likely to be accessed again, and memory accessed in a particular location is likely to access nearby data as well. 
+    </div>
+    <div class="section4">
+      <h3>Synchronization</h3>
+      An operating system containing multiple central processing units must grapple with a more complicated the caching process.  Mutual exclusion devices (ex. locks) will improve synchronization of data across the CPUs by atomically updating data and coordinating the smooth operation of the scheduling queue.
+    </div>
   </div>
-</div>
-
-
-<br><br>
-<div class="post">
-	<div class="flex-container">
-  <div class="flex-text"><a href="https://twitter.com/intent/tweet?url=https://nikarichardson.github.io/saba/pages/posts/1.html&text=&via=">Twitter</a></div>
-  <div class="flex-text"><a href="https://www.facebook.com/sharer.php?u=https://nikarichardson.github.io/saba/pages/posts/1.html">Facebook</a></div>
-  <div class="flex-text"><a href="https://www.tumblr.com/widgets/share/tool?canonicalUrl=https://nikarichardson.github.io/saba/pages/posts/1.html&title=&caption=">Tumblr</a></div>  
-  <div class="flex-text"><a href="https://www.linkedin.com/shareArticle?url=https://nikarichardson.github.io/saba/pages/posts/1.html&title=">LinkedIn</a></div>
-</div></div>
-
-
-
+  <br><br><br><br><br><br><br><br><br>
+  <div class="card">
+    <img src="../resources/student.jpg" alt="Avatar" class="avatar" style="width:100%">
+    <div class="container">
+      <h3>Nika R.</h3>
+      <p><div class="greentext">Occupation:</div> Student/Programmer
+      <p><div class="greentext">Company/School:</div> Always in flux 
+      <p><div class="greentext">Short Bio: </div>The story changes!
+       <br>
+    </div>
+  </div>
+  <br><br>
+  <div class="post">
+    <div class="flex-container">
+      <div class="flex-text">
+        <a href="https://twitter.com/intent/tweet?url=https://nikarichardson.github.io/saba/pages/posts/1.html&text=&via=">Twitter</a>
+      </div>
+      <div class="flex-text">
+        <a href="https://www.facebook.com/sharer.php?u=https://nikarichardson.github.io/saba/pages/posts/1.html">Facebook</a>
+      </div>
+      <div class="flex-text">
+        <a href="https://www.tumblr.com/widgets/share/tool?canonicalUrl=https://nikarichardson.github.io/saba/pages/posts/1.html&title=&caption=">Tumblr</a>
+      </div>  
+      <div class="flex-text">
+        <a href="https://www.linkedin.com/shareArticle?url=https://nikarichardson.github.io/saba/pages/posts/1.html&title=">LinkedIn</a>
+      </div>
+    </div>
+  </div>
+</div> 
 <div class="footer">
-<img src="../resources/white_bowl_icon.png" width="50" height="50"> 
+  <img src="../resources/white_bowl_icon.png" width="50" height="50"> 
 </div>
 </body>
 </html>
