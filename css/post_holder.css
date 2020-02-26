@@ -9,6 +9,7 @@
 .card1 { 
 	grid-area: 1 / 1 / 2 / 2;
 	padding: 10px;
+	padding-top: 0px;
 	color: #9c2f30;
 	text-align: justify;
 }
@@ -32,6 +33,7 @@
 .card2 { 
 	grid-area: 1 / 2 / 2 / 3;
 	padding: 10px;
+	padding-top: 0px;
 	color: #9c2f30;
 	text-align: justify;
 }

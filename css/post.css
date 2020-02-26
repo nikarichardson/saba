@@ -3,6 +3,7 @@
 	grid-template-rows: repeat(1, 250px);
 	grid-column-gap: 0px;
 	grid-row-gap: 30px;
+	padding-top: 0px;
 }
 
 .section1 { 
