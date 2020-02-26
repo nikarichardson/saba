@@ -6,7 +6,7 @@
 	<title>Saba: OS Concepts</title>
 </head>
 <body>
-<div class="leftbar">
+<nav class="leftbar">
 	<h1 class="title">Saba</h1>
 	<h1 class="subtitle">生飯</h1>
 		<p class="emoji">
@@ -17,28 +17,33 @@
 	<a href="../pages/about.html" class="navlink">About</a>
 	<a href="../pages/posts.html" class="navlink">Posts</a>
 	<a href="../pages/credits.html" class="navlink">Credits</a>
-</div> 
-<div class="main">
+</nav> 
+<article class="main">
 	<figure>
 		<img src="../resources/circuit.jpg" alt="electronic circuit" width="300" height="200" text-align="right">
 			<figcaption>
 			The memory cell is an electronic circuit that stores a bit of information.
 			</figcaption>
 	</figure>
-	<h1>Virtualization & Concurrency</h1>
-	<h2>Important Concepts for OS</h2>
+	<header>
+		<h1>Virtualization & Concurrency</h1>
+		<h2>Important Concepts for OS</h2>
+	</header>
+	<section>
 		<b>Virtualization</b> is the process of taking a physical resource and making it <i>virtual</i> in order to duplicate the resource. This process allows multiple programs to run by sharing the CPU. Thus, the memory is effectively private to each running program, not a communal resource. Virtualization duplicates the CPU as many times as necessary for the operating system. The CPU is the principle processor of an <b>operating system</b>—the <b>central processing unit</b>. An operating system is responsible for virtualizing the physical resources of the operating system as needed.The <i>time-sharing of the CPU</i>—which allows one process to control the CPU for a period of time— enables concurrent processes. To switch from one process to another, the operating system must use a <b>context switch</b>. At any given time, a running program can assume a <b>process state</b>, which indicates its readiness to be executed. The CPU scheduler is responsible for non-deterministically choosing the current running process.
+	</section>
 	<br>
 	<br>
+	<section>
 		<b>Concurrency</b> refers to the concurrent operation of multiple processes in operating systems. Many issues can arise when programs run concurrently, like the conflict of a variable’s value and the deletion of important data. An operating system needs to be reliable and performant. To contend with the problems of concurrency, an OS must isolate processes to ensure data security and persistence.
-	</br>
+	</section>
 	<blockquote>
 		UNIX is basically a simple operating system, but you have to be a genius to understand the simplicity.
 		<br>
 			- Dennis Ritchie
 		</br>
 	</blockquote>
-  	<div class="card">
+  	<section class="card">
     	<img src="../resources/student.jpg" alt="avatar" class="avatar" style="width:100%">
     	<div class="container">
       		<h3>Nika R.</h3>
@@ -47,9 +52,9 @@
       		<p><div class="greentext">Short Bio: </div>The story changes!</p>
        		<br>
     	</div>
-  	</div>
+  	</section>
    <br><br><br>
-	<div class="post">
+	<section class="post">
     	<div class="flex-container">
       		<div class="flex-text">
         		<a href="https://twitter.com/intent/tweet?url=https://nikarichardson.github.io/saba/pages/posts/1.html&text=&via=">Twitter</a>
@@ -64,7 +69,10 @@
         		<a href="https://www.linkedin.com/shareArticle?url=https://nikarichardson.github.io/saba/pages/posts/1.html&title=">LinkedIn</a>
       		</div>
     	</div>
-	</div>
-</div> 
+	</section>
+</article> 
+<footer class="footer">
+	<img src="../resources/white_bowl_icon.png" alt="white bowl" width="50" height="50">
+</footer>
 </body>
 </html>
