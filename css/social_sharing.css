@@ -7,7 +7,25 @@
   background-color: #cdcdcd;
   width: 100px;
   margin: 10px;
+  height: 70px;
   text-align: center;
   line-height: 75px;
   font-size: 15px;
+}
+
+/* larger screen layout */ 
+@media (min-width: 1300px){
+	.flex-container {
+  		display: flex;
+  		background-color: #fff;
+	}
+
+	.flex-text {
+  		background-color: #cdcdcd;
+  		width: 100px;
+  		margin: 10px;
+  		text-align: center;
+  		line-height: 75px;
+  		font-size: 15px;
+	}
 }
