@@ -60,7 +60,6 @@ img {
 
 .main {
 	margin-left: 280px;
-	/*pointer-events: none;*/
 	font-weight: 80;
 	flex: 70%;
 	padding: 0px 20px;
